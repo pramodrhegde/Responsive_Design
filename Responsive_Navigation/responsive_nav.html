@@ -1,0 +1,156 @@
+<html>
+<head>
+	<title>Responsive Navigation</title>
+	<link rel="stylesheet" href="">
+	<style>
+      body
+      {
+        font: 90%/160% arial,helvetica,sans-serif;
+      }
+      .navigation
+      {
+      	margin: 20px auto;
+      	width:960px;
+      	max-width: 96%;
+      }
+      .nav
+      {
+      	position: relative;
+        min-height: 40px;
+      }
+
+      ul
+      {
+      	list-style: none;
+      	margin:0px;
+      	padding: 0px;
+      }
+
+
+      a
+      {
+
+       text-decoration: none;
+       color: #69c;
+      
+      }
+
+      .nav ul
+      {
+      	position: absolute;
+      	left:0;
+      	top:0;
+        background: #fff url(icon-menu.png) no-repeat 10px 11px;
+        border: 1px solid #999;
+        border-radius: 5px;
+      }
+      .nav ul:hover
+      {
+      	 background: #fff url(icon-check.png)no-repeat 10px 11px;
+      }
+      .nav ul:hover li
+      {
+      	display: block;
+
+      }
+
+      .nav li
+      {
+      	display: none;
+      	margin: 5px 30px 5px 30px;
+      }
+      .nav .current
+      {
+      	display: block;
+      }
+      a:hover
+      {
+      	color: #f60;
+      }
+      .nav a
+      {
+
+        padding: 5px 5px 5px 5px;
+      	color: #999;
+      }
+      .nav a:hover
+      {
+      	color: black;
+      }
+
+      .nav .current a
+      {
+      	
+      	color: #999;
+      	
+      }
+
+      .right .nav ul
+      {
+
+      	right: 0;
+      	left:auto;
+      }
+      .center .nav ul
+      {
+      	left: 40%;
+      }
+
+ 
+    </style>
+</head>
+
+<body>
+  <div class="navigation">
+  			<div class="header">
+  				<h1>Demo: Responsive Menu</h1>
+  				<p>Tutorial By <a href="#">Pramod</a></p>
+                <h3>Resize your browser window or check with a mobile device.</h3>
+  			</div>
+
+  			<div class="left">
+  				<h2>Left Alignment</h2>
+  				<div class="nav">
+  					<ul >
+  					<li class="current"><a href="">Portfolio</a></li>
+  					<li><a href="">Illustration</a></li>
+  					<li><a href="">Print Media</a></li>
+  					<li><a href="">WebDesign</a></li>
+  					<li><a href="">Graphic Design</a></li>
+  				 </ul>
+  				</div>
+  				
+  				 	<p>Sed sagittis, elit egestas rutrum vehicula, neque dolor fringilla lacus, ut rhoncus turpis augue vitae libero. Nam risus velit, rhoncus eget consectetur id, posuere at ligula. Vivamus imperdiet diam ac tortor tempus posuere. Curabitur at arcu id turpis posuere bibendum. Sed commodo mauris eget diam pretium cursus. In sagittis feugiat mauris, in ultrices mauris lacinia eu. Fusce augue velit, vulputate elementum semper congue, rhoncus adipiscing nisl. Curabitur vel risus eros, sed eleifend arcu. Donec porttitor hendrerit diam et blandit. Curabitur vitae velit ligula, vitae lobortis massa. Mauris mattis est quis dolor venenatis vitae pharetra diam gravida. Vivamus dignissim, ligula vel ultricies varius, nibh velit pretium leo, vel placerat ipsum risus luctus purus. Nullam rutrum quam ut massa ultricies sed blandit sapien fermentum. Curabitur venenatis vehicula mattis. Nunc eleifend consectetur odio sit amet viverra. Ut euismod ligula eu tellus interdum mattis ac eu nulla. Phasellus cursus, lacus quis convallis aliquet, dolor urna ullamcorper mi, eget dapibus velit est vitae nisi. Aliquam erat nulla, sodales at imperdiet vitae, convallis vel dui. Sed ultrices felis ut justo suscipit vestibulum.</p>
+  			</div>
+  			<div class="right">
+  				<h2>Right Alignment</h2>
+  				<div class="nav">
+  					<ul >
+  					<li class="current"><a href="">Portfolio</a></li>
+  					<li><a href="">Illustration</a></li>
+  					<li><a href="">Print Media</a></li>
+  					<li><a href="">WebDesign</a></li>
+  					<li><a href="">Graphic Design</a></li>
+  				</ul>
+  				</div>
+  				
+  				<p>Sed sagittis, elit egestas rutrum vehicula, neque dolor fringilla lacus, ut rhoncus turpis augue vitae libero. Nam risus velit, rhoncus eget consectetur id, posuere at ligula. Vivamus imperdiet diam ac tortor tempus posuere. Curabitur at arcu id turpis posuere bibendum. Sed commodo mauris eget diam pretium cursus. In sagittis feugiat mauris, in ultrices mauris lacinia eu. Fusce augue velit, vulputate elementum semper congue, rhoncus adipiscing nisl. Curabitur vel risus eros, sed eleifend arcu. Donec porttitor hendrerit diam et blandit. Curabitur vitae velit ligula, vitae lobortis massa. Mauris mattis est quis dolor venenatis vitae pharetra diam gravida. Vivamus dignissim, ligula vel ultricies varius, nibh velit pretium leo, vel placerat ipsum risus luctus purus. Nullam rutrum quam ut massa ultricies sed blandit sapien fermentum. Curabitur venenatis vehicula mattis. Nunc eleifend consectetur odio sit amet viverra. Ut euismod ligula eu tellus interdum mattis ac eu nulla. Phasellus cursus, lacus quis convallis aliquet, dolor urna ullamcorper mi, eget dapibus velit est vitae nisi. Aliquam erat nulla, sodales at imperdiet vitae, convallis vel dui. Sed ultrices felis ut justo suscipit vestibulum.</p>
+  			</div>
+  			<div class="center">
+  				<h2>Center Alignment</h2>
+  				<div class="nav">
+  					<ul >
+  					<li class="current"><a href="">Portfolio</a></li>
+  					<li><a href="">Illustration</a></li>
+  					<li><a href="">Print Media</a></li>
+  					<li><a href="">WebDesign</a></li>
+  					<li><a href="">Graphic Design</a></li>
+  				</ul>
+  				</div>
+  				
+  				<p>Sed sagittis, elit egestas rutrum vehicula, neque dolor fringilla lacus, ut rhoncus turpis augue vitae libero. Nam risus velit, rhoncus eget consectetur id, posuere at ligula. Vivamus imperdiet diam ac tortor tempus posuere. Curabitur at arcu id turpis posuere bibendum. Sed commodo mauris eget diam pretium cursus. In sagittis feugiat mauris, in ultrices mauris lacinia eu. Fusce augue velit, vulputate elementum semper congue, rhoncus adipiscing nisl. Curabitur vel risus eros, sed eleifend arcu. Donec porttitor hendrerit diam et blandit. Curabitur vitae velit ligula, vitae lobortis massa. Mauris mattis est quis dolor venenatis vitae pharetra diam gravida. Vivamus dignissim, ligula vel ultricies varius, nibh velit pretium leo, vel placerat ipsum risus luctus purus. Nullam rutrum quam ut massa ultricies sed blandit sapien fermentum. Curabitur venenatis vehicula mattis. Nunc eleifend consectetur odio sit amet viverra. Ut euismod ligula eu tellus interdum mattis ac eu nulla. Phasellus cursus, lacus quis convallis aliquet, dolor urna ullamcorper mi, eget dapibus velit est vitae nisi. Aliquam erat nulla, sodales at imperdiet vitae, convallis vel dui. Sed ultrices felis ut justo suscipit vestibulum.</p>
+  			</div>
+  		</div>		
+
+</body>
+</html>

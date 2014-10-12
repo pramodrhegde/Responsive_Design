@@ -2,6 +2,7 @@
 <head>
 	<title>Responsive Page</title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="mediaquery.css">
 </head>	
 
 <body>
@@ -12,7 +13,7 @@
 				<h2 id="site_description">Site Description</h2>
 			</hgroup>
 			<nav >
-				<ul id="navigation">
+				<ul id="navigation" class="clearfix">
 					<li><a href="">Home</a></li>
 					<li><a href="">About</a></li>
 					<li><a href="">Contact</a></li>
@@ -25,7 +26,7 @@
 			</form>
 		</header>
 		<div id="content">
-			   <article class="post">
+			   <article class="post clearfix">
                  <header>
                  	<h1 class="post_title">
                  	 <a href="#">Just a post title</a>
@@ -43,8 +44,11 @@
                  <p>
                  	Fusce ut sem est. In eu sagittis felis. In gravida arcu ut neque ornare vitae rutrum turpis vehicula. Nunc ultrices sem mollis metus rutrum non malesuada metus fermentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque interdum rutrum quam, a pharetra est pulvinar ac. Vestibulum congue nisl magna. Ut vulputate odio id dui convallis in adipiscing libero condimentum. Nunc et pharetra enim. Praesent pharetra, neque et luctus tempor, leo sapien faucibus leo, a dignissim turpis ipsum sed libero. Sed sed luctus purus. Aliquam faucibus turpis at libero consectetur euismod. Nam nunc lectus, congue non egestas quis, condimentum ut arcu. Nulla placerat, tortor non egestas rutrum, mi turpis adipiscing dui, et mollis turpis tortor vel orci. Cras a fringilla nunc. Suspendisse volutpat, eros congue scelerisque iaculis, magna odio sodales dui, vitae vulputate elit metus ac arcu. Mauris consequat rhoncus dolor id sagittis. Cras tortor elit, aliquet quis tincidunt eget, dignissim non tortor.
                  </p>
+                 <div class="video">
+                 	<iframe width="600" height="420" src="http://www.youtube.com/embed/6d60v1OErEY" frameborder="0" allowfullscreen></iframe>
+                 </div>
 		       </article>
-
+               
 		</div>
 
 
@@ -57,7 +61,7 @@
 		       		<li><a href="#">Blogger</a></li>
 		       	</ul>
 		     </section>
-		     <section class="widget">
+		     <section class="widget clearfix">
 		       	<h4>Flickr</h4>
 		       	<div class="flickr_badge_image" id="flickr_image1"><a href="#"><img src="imgs/4920460612_f2c30bf058_s.jpg" alt="img1"></a></div>
 		       	<div class="flickr_badge_image" id="flickr_image2"><a href="#"><img src="imgs/4920460484_304bfbecd1_s.jpg" alt="img2"></a></div>

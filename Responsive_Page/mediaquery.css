@@ -1,0 +1,83 @@
+@media screen and (max-width: 980px){
+
+	#main
+	{
+		width: 95%;
+	}
+	#content
+	{
+		width: 60%;
+		padding: 3% 4%;
+	}
+	#sidebar
+	{
+       width: 30%;
+	}
+	#sidebar.widget
+	{
+		padding: 8% 7%;
+	}
+
+}
+
+@media screen and (max-width: 650px){
+    
+    #header
+    {
+    	height: auto;
+    }
+    #logo
+    {
+    	position: static;
+margin: 15px 100px 5px 0;
+    }
+    #site_description
+    {
+    	margin: 0 0 15px;
+    	position: static;
+    }
+    #navigation
+    {
+    	position: static;
+    }
+    #searchform
+    {
+    	position: absolute;
+    	top: 5px;
+    	right: 0;
+    }
+    #searchform #s
+    {
+    	width: 70px;
+    }
+    #content
+    {
+    	float: none;
+    	width:auto;
+    	margin:20px 0;
+    }
+    #sidebar
+    {
+    	float: none;
+    	width: 100%;
+    	margin: 0;
+    }
+    	#sidebar.widget
+	{
+		padding: 3% 4%;
+		padding: 0 0 10px;
+	}
+    
+}
+
+@media screen and (max-width: 480px){
+
+	html {
+		-webkit-text-size-adjust: none;
+	}
+
+	#navigation a {
+		font-size: 90%;
+		padding: 10px 8px;
+	}
+}
